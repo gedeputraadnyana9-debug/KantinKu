@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasi Goreng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container-produk">
+            <div class="gproduk">
+                <img src="asset/es teh.jpeg" alt="Es Teh" class="gbesar">
+                <div class="gatur">
+                <img src="asset/es teh.jpeg" alt="Es Teh" class="gkecil">
+                <img src="asset/es teh.jpeg" alt="Es Teh" class="gkecil">
+                </div>
+            </div>
+            <div class="detailp">
+                <h2>Es Teh</h2>
+                <h3 id="harga" value="3000">Rp 3.000,00</h3>
+                <p>Es teh manis yang diracik dari daun teh pilihan dengan manis yang pas. Disajikan dingin, segar, dan ampuh melepas dahaga seketika.</p>
+                <input type="number" placeholder="Masukkan Jumlah" id="jumlah"> <br>
+                <button onclick="hitung()" >Hitung Total</button> <button onclick="window.location.href='index.html'" class="tkembali">Kembali</button>
+            </div>
+        </div>
+         <div class="hasil">
+                    <h2>Subtotal:</h2>
+                    <h3 id="subTotal"></h3>
+                    <h2>Diskon:</h2>
+                    <h3 id="diskon"></h3>
+                    <h2>Total Pembayaran:</h2>
+                    <h3 id="totalPembayaran"></h3>
+            </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mie Goreng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container-produk">
+            <div class="gproduk">
+                <img src="asset/mie goreng.jpg" alt="Mie Goreng" class="gbesar">
+                <div class="gatur">
+                <img src="asset/mie goreng.jpg" alt="Mie Goreng" class="gkecil">
+                <img src="asset/mie goreng.jpg" alt="Mie Goreng" class="gkecil">
+                </div>
+            </div>
+            <div class="detailp">
+                <h2>Mie Goreng</h2>
+                <h3 id="harga" value="17000">Rp 17.000,00</h3>
+                <p>Mie goreng legendaris dengan bumbu racikan khas yang manis, gurih, dan kaya rempah. Disajikan lengkap dengan telur, suwiran ayam, bakso, dan sayuran segar.</p>
+                <input type="number" placeholder="Masukkan Jumlah" id="jumlah"> <br>
+                <button onclick="hitung()">Hitung Total</button> <button onclick="window.location.href='index.html'" class="tkembali">Kembali</button>
+            </div>
+        </div>
+        <div class="hasil">
+                    <h2>Subtotal:</h2>
+                    <h3 id="subTotal"></h3>
+                    <h2>Diskon:</h2>
+                    <h3 id="diskon"></h3>
+                    <h2>Total Pembayaran:</h2>
+                    <h3 id="totalPembayaran"></h3>
+            </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
